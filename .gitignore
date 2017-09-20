@@ -18,3 +18,7 @@
 
 # Ignore env files
 *.env
+
+Ignore data files
+data/*
+!/data/
