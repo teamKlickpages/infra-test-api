@@ -1,4 +1,4 @@
-# Infraestructure Test - API
+# Infrastructure Test - API
 
 ### System Requirements
 ---------
@@ -8,7 +8,7 @@
 * A Redis Server;
 * Bundler (`gem install bundler`);
 
-### Installation Instructions
+### Development Installation
 ---------
 ```
 $ git clone git@bitbucket.org:klicksite/infra-test-api.git
@@ -20,7 +20,7 @@ $ rake db:setup db:migrate db:seed
 
 ### Variables
 ----------
-View `.api.env-exaple` file:
+View `.api.env-example` file:
 ```
 RAILS_ENV
 RAILS_MAX_THREADS
